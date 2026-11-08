@@ -1,0 +1,44 @@
+{
+  "name": "@kariyerpusula/evidence-policy",
+  "version": "0.1.0",
+  "description": "Dependency-free evidence access policy, secure object keys and file signature validation for Node.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "./src/index.mjs",
+  "types": "./src/index.d.mts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.mts",
+      "import": "./src/index.mjs"
+    }
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.mjs && node --test"
+  },
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omurozkara/kariyerpusula-community.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omurozkara/kariyerpusula-community/issues"
+  },
+  "homepage": "https://github.com/omurozkara/kariyerpusula-community#readme",
+  "keywords": [
+    "security",
+    "privacy",
+    "evidence",
+    "authorization",
+    "node",
+    "oss"
+  ]
+}

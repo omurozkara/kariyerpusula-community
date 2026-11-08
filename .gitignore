@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+
+# Local publication tooling / application-only drafts
+APPLICATION_DRAFT_TR.md
+PUBLISH_INSTRUCTIONS_TR.md
+publish-to-github.ps1
+create-and-publish.ps1
+create-and-publish.sh
