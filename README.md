@@ -1,0 +1,1 @@
+# kariyerpusula-community
